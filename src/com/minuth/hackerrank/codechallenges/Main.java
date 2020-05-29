@@ -29,7 +29,7 @@ public class Main {
         }
         else {
 
-            if((m % 2 == 0 && s > 15)||(m % 2 != 0 && s < 15)){
+             if((m % 2 == 0 && s < 60)||(m % 2 != 0 && s > 15 )){
                 System.out.println("working out");
             }
             else {
